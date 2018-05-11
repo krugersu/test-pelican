@@ -1,71 +1,77 @@
-<!DOCTYPE html>
-<html lang="russian">
+<!doctype html>
+<html lang="es">	
 <head>
-        <meta charset="utf-8" />
-        <title>Test Pelican</title>
-        <link rel="stylesheet" href="./theme/css/main.css" />
-        <link href="/rss/all.xml" type="application/rss+xml" rel="alternate" title="Test Pelican RSS Feed" />
+	<meta charset="utf-8"/>
+	<title>Test Pelican</title>	
 
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+	<meta name="author" content="Привалов" />
+	<meta name="copyright" content="Привалов" />
+
+	<meta property="og:site_name" content="Test Pelican" />
+
+
+
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0" />
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="./favicon.ico" type="image/x-icon" />
+	<link href='https://fonts.googleapis.com/css?family=Droid+Sans:700,400|Droid+Sans+Mono' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="./theme/css/main.css" type="text/css" />
+		
+	<!--[if lt IE 9]>
+		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<link href="./feeds/all.rss.xml" type="application/atom+xml" rel="alternate" title="Test Pelican RSS Feed" />
 </head>
+	
+<body>		
+	<header class="clearfix" role="banner">
+		<div class="wrapper">
+			<h1 class="huge"><a href=".">Test Pelican</a></h1>
+		</div>
+	</header>
+	
+<div role="main" class="content clearfix">
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="./">Test Pelican </a></h1>
-                <nav><ul>
-                    <li><a href="./category/misc.html">misc</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
+	<article class="wrapper main">
+		<h1><a href="./hello-world.html">Hello world!</a></h1>
+		<p><strong>Настройка Pelican</strong>
+Настройки pelican по-умолчанию в принципе отлично подходят для большинства блогов, но так как я переносил все статьи с Wordpress и хотел сохранить URL-структуру, то мне было необходимо их немного изменить.<em>This is a test blog post.</em></p> <a class="btn" href="./hello-world.html">read more →</a>
+	</article>
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="./hello-world.html">Hello, World!</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2017-04-05T13:04:00+02:00">
-                Published: Ср 05 Апрель 2017
-        </abbr>
-		<br />
-        <abbr class="modified" title="2017-04-05T13:04:00+02:00">
-                Updated: Ср 05 Апрель 2017
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="./author/privalov.html">Привалов</a>
-        </address>
-<p>In <a href="./category/misc.html">misc</a>.</p>
-
-</footer><!-- /.post-info --><p><em>This is a test blog post.</em></p>                </article>
-            </aside><!-- /#featured -->
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>links</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="/rss/all.xml" type="application/rss+xml" rel="alternate">rss feed</a></li>
-
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
-
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
-
+		</ol>
+		
+		<p>More posts in the <a href="./archives.html">archive</a>.</p>
+	</div>
+</div>
+	
+		
+<footer class="clearfix">
+	<div class="wrapper pages">
+		<ul class="nav">
+			<li><a href="./archives.html">Archive</a></li>
+		</ul>
+	</div>
+	
+	<div class="copy wrapper">
+		<ul class="social">
+			<li><a href="#">You can add links in your config file</a></li>
+			<li><a href="#">Another social link</a></li>
+		</ul>
+	
+		<p role="contentinfo">		© 2017 Привалов
+<br>
+		Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">Pelican</a>.</p>
+	</div>
+</footer>
+	
+	<script>
+	  var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+	  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	  s.parentNode.insertBefore(g,s)}(document,'script'));
+	</script>
 </body>
 </html>

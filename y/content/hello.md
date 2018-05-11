@@ -1,5 +1,10 @@
-Title: Hello, World!
-Date: 2017-04-05 13:04
-Modified: 2017-04-05 13:04
+Title: Hello world!
+Date: 2018-04-11 12:40
+Author: username
+Category: Some_Category
+Tags: blogging, test
+Slug: hello-world
+Status: published
 
-*This is a test blog post.*
+**Настройка Pelican**
+Настройки pelican по-умолчанию в принципе отлично подходят для большинства блогов, но так как я переносил все статьи с Wordpress и хотел сохранить URL-структуру, то мне было необходимо их немного изменить.*This is a test blog post.*
