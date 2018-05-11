@@ -6,5 +6,5 @@ Tags: blogging, test
 Slug: hello-world
 Status: published
 
-**Настройка Pelican**
+++Настройка Pelican++
 Настройки pelican по-умолчанию в принципе отлично подходят для большинства блогов, но так как я переносил все статьи с Wordpress и хотел сохранить URL-структуру, то мне было необходимо их немного изменить.*This is a test blog post.*
