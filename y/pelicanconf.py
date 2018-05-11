@@ -31,5 +31,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 10
 
+FEED_ALL_RSS = 'rss/all.xml'
+CATEGORY_FEED_RSS = 'rss/%s.xml'
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
