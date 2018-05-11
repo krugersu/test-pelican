@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Привалов'
-SITENAME = 'Test Pelican'
+SITENAME = 'Тестовый сайт на Пеликане'
 SITEURL = ''
 
 PATH = 'content'
@@ -18,6 +18,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+DELETE_OUTPUT_DIRECTORY = False
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
@@ -31,7 +32,5 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 10
 
-FEED_ALL_RSS = 'rss/all.xml'
-CATEGORY_FEED_RSS = 'rss/%s.xml'
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
