@@ -14,3 +14,5 @@ rm -r ../theme 2>/dev/null || true
 pelican --relative-urls --ignore-cache \
   --theme-path template/pelican-semantic \
   -o .. content
+
+git add ../*.html
