@@ -1,3 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Test Pelican</title><link>/</link><description></description><lastBuildDate>Wed, 11 Apr 2018 12:40:00 +0200</lastBuildDate><item><title>Hello world!</title><link>/hello-world.html</link><description>&lt;p&gt;&lt;strong&gt;Настройка Pelican&lt;/strong&gt;
-Настройки pelican по-умолчанию в принципе отлично подходят для большинства блогов, но так как я переносил все статьи с Wordpress и хотел сохранить URL-структуру, то мне было необходимо их немного изменить.&lt;em&gt;This is a test blog post.&lt;/em&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">username</dc:creator><pubDate>Wed, 11 Apr 2018 12:40:00 +0200</pubDate><guid isPermaLink="false">tag:None,2018-04-11:/hello-world.html</guid><category>blogging</category><category>test</category></item></channel></rss>
+<rss version="2.0"><channel><title>Test Pelican</title><link>/</link><description></description><lastBuildDate>Wed, 11 Apr 2018 12:40:00 +0200</lastBuildDate><item><title>Hello world!</title><link>/hello-world.html</link><description>&lt;p&gt;++Настройка Pelican++
+Настройки pelican по-умолчанию в принципе отлично подходят для большинства блогов, но так как я переносил все статьи с Wordpress и хотел сохранить URL-структуру, то мне было необходимо их немного изменить.&lt;em&gt;This is a test blog post.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Достаточно выполнить&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git checkout gh-pages
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;а гит сделает всю оставшуюся работу за …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">username</dc:creator><pubDate>Wed, 11 Apr 2018 12:40:00 +0200</pubDate><guid isPermaLink="false">tag:None,2018-04-11:/hello-world.html</guid><category>blogging</category><category>test</category></item></channel></rss>
